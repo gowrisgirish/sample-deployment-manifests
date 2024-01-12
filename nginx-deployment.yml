@@ -18,7 +18,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: nginx:latest
+      - image: <+artifact.image>
         name: nginx
         resources: {}
 status: {}
